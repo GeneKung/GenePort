@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/GenePort/static/css/main.073c9b0a.css",
-    "main.js": "/GenePort/static/js/main.d532d02b.js",
-    "static/js/787.fb07f30f.chunk.js": "/GenePort/static/js/787.fb07f30f.chunk.js",
+    "main.css": "/GenePort/static/css/main.7b474283.css",
+    "main.js": "/GenePort/static/js/main.67ee58c0.js",
     "index.html": "/GenePort/index.html",
-    "main.073c9b0a.css.map": "/GenePort/static/css/main.073c9b0a.css.map",
-    "main.d532d02b.js.map": "/GenePort/static/js/main.d532d02b.js.map",
-    "787.fb07f30f.chunk.js.map": "/GenePort/static/js/787.fb07f30f.chunk.js.map"
+    "main.7b474283.css.map": "/GenePort/static/css/main.7b474283.css.map",
+    "main.67ee58c0.js.map": "/GenePort/static/js/main.67ee58c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.d532d02b.js"
+    "static/css/main.7b474283.css",
+    "static/js/main.67ee58c0.js"
   ]
 }
