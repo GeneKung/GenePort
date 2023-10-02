@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/gene-kung's-website/static/css/main.073c9b0a.css",
-    "main.js": "/gene-kung's-website/static/js/main.772adf53.js",
-    "static/js/787.fb07f30f.chunk.js": "/gene-kung's-website/static/js/787.fb07f30f.chunk.js",
-    "index.html": "/gene-kung's-website/index.html",
-    "main.073c9b0a.css.map": "/gene-kung's-website/static/css/main.073c9b0a.css.map",
-    "main.772adf53.js.map": "/gene-kung's-website/static/js/main.772adf53.js.map",
-    "787.fb07f30f.chunk.js.map": "/gene-kung's-website/static/js/787.fb07f30f.chunk.js.map"
+    "main.css": "/GenePort/static/css/main.073c9b0a.css",
+    "main.js": "/GenePort/static/js/main.a5239bfa.js",
+    "static/js/787.fb07f30f.chunk.js": "/GenePort/static/js/787.fb07f30f.chunk.js",
+    "index.html": "/GenePort/index.html",
+    "main.073c9b0a.css.map": "/GenePort/static/css/main.073c9b0a.css.map",
+    "main.a5239bfa.js.map": "/GenePort/static/js/main.a5239bfa.js.map",
+    "787.fb07f30f.chunk.js.map": "/GenePort/static/js/787.fb07f30f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.772adf53.js"
+    "static/js/main.a5239bfa.js"
   ]
 }
