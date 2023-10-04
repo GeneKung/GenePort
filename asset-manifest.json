@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/GenePort/static/css/main.7b474283.css",
-    "main.js": "/GenePort/static/js/main.2403e655.js",
+    "main.css": "/GenePort/static/css/main.55407dc2.css",
+    "main.js": "/GenePort/static/js/main.ea8f6614.js",
     "index.html": "/GenePort/index.html",
-    "main.7b474283.css.map": "/GenePort/static/css/main.7b474283.css.map",
-    "main.2403e655.js.map": "/GenePort/static/js/main.2403e655.js.map"
+    "main.55407dc2.css.map": "/GenePort/static/css/main.55407dc2.css.map",
+    "main.ea8f6614.js.map": "/GenePort/static/js/main.ea8f6614.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b474283.css",
-    "static/js/main.2403e655.js"
+    "static/css/main.55407dc2.css",
+    "static/js/main.ea8f6614.js"
   ]
 }
