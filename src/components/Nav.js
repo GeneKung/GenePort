@@ -1,8 +1,30 @@
+import { useEffect } from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 
 export default function Nav() {
+
+  const [scrolling, setScrolling] = useState(false);
+  useEffect(() => {
+    // Add a scroll event listener to track scrolling
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+  
+    window.addEventListener("scroll", handleScroll);
+  
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+  
+
   return (
-    <nav className="nav">
+    <nav className={`nav ${scrolling ? "scrolling" : ""}`}>
       <Link to="/" className="site-title">
         Gene's Website
       </Link>
