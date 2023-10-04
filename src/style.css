@@ -4,28 +4,32 @@
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 .container {
-  margin: 1rem;
+  margin: 0; /* Remove the top margin to eliminate space above the navbar */
   text-align: center;
 }
 
+/* Apply a transparent background initially */
 .nav {
   background-color: transparent;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  gap: 2rem;
   padding: 0 1rem;
-  position: fixed; /* Keep the navbar fixed at the top */
   width: 100%;
-  transition: background-color 0.3s ease; /* Add smooth transition for background color */
+  position: fixed;
+  top: 0;
+  transition: background-color 0.3s ease;
+  z-index: 1000; /* Optionally, add a high z-index to ensure it's on top */
 }
 
 /* Styles for the navigation bar when scrolling */
 .nav.scrolling {
+  position: fixed; 
   background-color: #333;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a shadow when scrolling */
 }
